@@ -1,14 +1,14 @@
 /* eslint import/no-unresolved: [2, { ignore: ['react', 'react-native'] }] */
 /* eslint-disable react/no-array-index-key */
-import React from 'react';
-import PropTypes from 'prop-types';
-import { View, TouchableOpacity } from 'react-native';
+import React from "react";
+import PropTypes from "prop-types";
+import { View, TouchableOpacity } from "react-native";
 
-import { scaleLinear } from 'd3-scale';
-import { mean, max, min } from 'd3-array';
-import _ from 'lodash';
+import { scaleLinear } from "d3-scale";
+import { max } from "d3-array";
+import _ from "lodash";
 
-import { getColor } from '../utils';
+import { getColor } from "../utils";
 
 function Waveform({
   waveform,
@@ -45,11 +45,11 @@ function Waveform({
         {
           height,
           width,
-          justifyContent: 'flex-start',
-          flexDirection: 'row',
+          justifyContent: "flex-start",
+          flexDirection: "row",
         },
         inverse && {
-          transform: [{ rotateX: '180deg' }, { rotateY: '0deg' }],
+          transform: [{ rotateX: "180deg" }, { rotateY: "0deg" }],
         },
       ]}
     >
@@ -77,7 +77,7 @@ function Waveform({
               ),
               width: width / 100 - 1,
               marginRight: 1,
-              height: scaleLinearHeight(i % 3 == 0 ? min(chunk) : i % 3 == 1 ? mean(chunk) :  max(chunk)),
+              height: scaleLinearHeight(max(chunk)),
             }}
           />
         </TouchableOpacity>
