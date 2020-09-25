@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import SoundCloudWaveform from 'react-native-soundcloud-waveform-typescript'
+import SoundCloudWaveform from 'react-native-soundcloud-waveform-ts'
 
 declare const global: { HermesInternal: null | {} };
 

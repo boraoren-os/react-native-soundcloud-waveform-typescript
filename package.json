@@ -1,11 +1,12 @@
 {
-  "name": "react-native-soundcloud-waveform-typescript",
-  "version": "1.1.4",
+  "name": "react-native-soundcloud-waveform-ts",
+  "version": "1.1.5",
   "description": "Creating a simple transform to the SoundCloud's waveforms from the image url",
   "main": "src/index.js",
   "jsnext:main": "src/index.js",
   "module": "src/index.js",
   "scripts": {
+    "prepublish": "tsc",
     "test": "jest",
     "test:watch": "npm run test -- --watch",
     "test:coverage": "jest --coverage",
@@ -19,6 +20,7 @@
   "files": [
     "dist"
   ],
+  "types": "src/index.d.ts",
   "keywords": [
     "react-native",
     "soundcloud",
