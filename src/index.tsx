@@ -1,12 +1,7 @@
-/**
- * @providesModule soundcloudwave
- */
-
-import React, { Component } from 'react';
+import * as React from 'react';
 import { View } from 'react-native';
-import PropTypes from 'prop-types';
 import Waveform from './components/Waveform';
-import { dimensionsWidth } from './utils';
+import { dimensionsWidth } from './utils/index';
 import { useState } from 'react';
 import { useEffect } from 'react';
 

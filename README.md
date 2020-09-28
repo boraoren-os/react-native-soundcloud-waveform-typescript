@@ -1,4 +1,4 @@
-Creating a simple transform to the SoundCloud's waveforms from the image url
+Creating a simple transform to the SoundCloud's waveforms from the image url for typescript
 
 ## Show Cases
 ![Alt Text](https://media.giphy.com/media/35EH7lliWnUah8B9Ev/giphy.gif)
@@ -65,7 +65,8 @@ render() {
 ## Contribution
 
 - [@pritishvaidya](mailto:pritishvaidya94@gmail.com) The main author.
+- [@boraoren](mailto:boraoren@gmail.com)
 
 ## Questions
 
-Feel free to [contact me](mailto:pritishvaidya94@gmail.co) or [create an issue](https://github.com/pritishvaidya/soundcloud-waveform/issues/new)
+Feel free to [contact me](mailto:boraoren@gmail.com) or [create an issue](https://github.com/boraoren-os/react-native-soundcloud-waveform-typescript/issues/new)

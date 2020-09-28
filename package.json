@@ -1,26 +1,26 @@
 {
-  "name": "react-native-soundcloud-waveform-ts",
+  "name": "react-native-soundcloud-waveform-typescript",
   "version": "1.1.5",
   "description": "Creating a simple transform to the SoundCloud's waveforms from the image url",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "jsnext:main": "src/index.js",
   "module": "src/index.js",
   "scripts": {
-    "prepublish": "tsc",
+    "build": "tsc --project ./tsconfig.json",
+    "prepublish": "tsc --project ./tsconfig.json",
+    "lint": "tslint --fix -p ./tsconfig.json",
     "test": "jest",
     "test:watch": "npm run test -- --watch",
-    "test:coverage": "jest --coverage",
-    "lint": "eslint . --ignore-path .gitignore --ext .js --ext .jsx",
-    "fix-lint": "yarn lint -- --fix"
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/boraoren-os/react-native-soundcloud-waveform-typescript.git"
   },
-  "files": [
-    "dist"
-  ],
-  "types": "src/index.d.ts",
   "keywords": [
     "react-native",
     "soundcloud",
@@ -32,33 +32,33 @@
     "email": "pritishvaidya94@gmail.com",
     "url": "pritishvaidya.com"
   },
+  "contributors": [
+    {
+      "name": "bora oren",
+      "email": "boraoren@gmail.com",
+      "url": "http://boraoren.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pritishvaidya/soundcloud-waveform/issues"
   },
   "homepage": "https://github.com/pritishvaidya/soundcloud-waveform#readme",
   "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/runtime": "^7.8.4",
-    "@react-native-community/eslint-config": "^1.1.0",
     "@types/jest": "^25.2.3",
     "@types/react-native": "^0.63.2",
     "@types/react-test-renderer": "^16.9.2",
-    "@typescript-eslint/eslint-plugin": "^2.27.0",
-    "@typescript-eslint/parser": "^2.27.0",
-    "babel-jest": "^25.1.0",
-    "eslint": "^6.5.1",
     "jest": "^25.1.0",
-    "metro-react-native-babel-preset": "^0.59.0",
     "react-test-renderer": "16.13.1",
-    "typescript": "4.0.3"
+    "typescript": "^3.8.3"
   },
   "dependencies": {
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "react-dom": "16.13.1",
     "d3-array": "^2.7.1",
     "d3-scale": "^3.2.2",
-    "lodash": "^4.17.20",
-    "react": "16.13.1",
-    "react-native": "0.63.2"
+    "lodash": "^4.17.20"
   },
   "jest": {
     "preset": "react-native",

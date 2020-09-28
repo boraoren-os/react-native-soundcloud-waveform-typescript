@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from 'react';
 import { View, TouchableOpacity } from 'react-native';
-import { getColor } from '../utils';
+import { getColor } from '../utils/index';
 
 
 export interface WF {
@@ -43,13 +43,11 @@ const Waveform:React.FC<WaveFormProps> = (props) => {
   if (chunks.length >= 100) {
     for (let i = 0; i < 100; i++) {
       waveformSamples.push(chunks[i]);
-      //console.log("---> " + chunks[chunks.length - (i + 1)])
     }
   } else {
     
     for (let i = 0; i < 100 - chunks.length; i++) {
       waveformSamples.push(chunks[chunks.length - (i + 1)]);
-      //console.log("---> " + chunks[chunks.length - (i + 1)])
     }
   }
 

@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "private": true,
   "scripts": {
+    "build": "tsc --project ./tsconfig.json",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
@@ -11,8 +12,9 @@
   },
   "dependencies": {
     "react": "16.13.1",
+    "react-dom": "16.13.1",
     "react-native": "0.63.2",
-    "react-native-soundcloud-waveform-ts": "1.1.4"
+    "react-native-soundcloud-waveform-typescript": "^1.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
