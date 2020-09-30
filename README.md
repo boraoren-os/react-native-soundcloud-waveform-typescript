@@ -1,7 +1,9 @@
 Creating a simple transform to the SoundCloud's waveforms from the image url for typescript
 
 ## Show Cases
-![Alt Text](https://media.giphy.com/media/35EH7lliWnUah8B9Ev/giphy.gif)
+[<img src="./documents/images/musicPlayer.png" width="250"/>](image.png) 
+
+[You can checker here for showcase](https://github.com/boraoren-os/react-native-soundcloud-waveform-typescript)
 
 ## Getting Started
 
