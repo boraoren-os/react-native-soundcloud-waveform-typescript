@@ -3,7 +3,7 @@ Creating a simple transform to the SoundCloud's waveforms from the image url for
 ## Show Cases
 [<img src="./documents/images/musicPlayer.png" width="250"/>](image.png) 
 
-[You can check here for showcase](https://github.com/boraoren-os/react-native-soundcloud-waveform-typescript)
+[You can check here for showcase](https://github.com/boraoren/react-native-challenge-music-player)
 
 ## Getting Started
 
