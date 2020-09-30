@@ -1,6 +1,6 @@
 {
   "name": "react-native-soundcloud-waveform-typescript",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Creating a simple transform to the SoundCloud's waveforms from the image url",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -41,9 +41,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pritishvaidya/soundcloud-waveform/issues"
+    "url": "https://github.com/boraoren-os/react-native-soundcloud-waveform-typescript/issues"
   },
-  "homepage": "https://github.com/pritishvaidya/soundcloud-waveform#readme",
+  "homepage": "https://github.com/boraoren-os/react-native-soundcloud-waveform-typescript/#readme",
   "devDependencies": {
     "@types/jest": "^25.2.3",
     "@types/react-native": "^0.63.2",
